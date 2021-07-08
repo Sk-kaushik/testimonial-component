@@ -1,0 +1,36 @@
+// PARTIALS IMPORT
+@import "_variables";
+@import "_testimonial";
+@import "_responsive";
+
+// RESET BROWSER STYLES
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// GLOBAL STYLES
+
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  min-height: 90vh;
+  margin: 5vh 0;
+  background: $Light-bluish-color;
+  display: flex;
+  align-items: center;
+}
